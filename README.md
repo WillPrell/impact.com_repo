@@ -16,6 +16,7 @@ This is a simple Java command-line application that prints the name of the compa
 ```
 
 ## Project Structure
+
 src/
 ├── main/
 │   ├── java/com/william/
@@ -25,6 +26,7 @@ src/
 |   |   ├── GenerateNameTest.java
 
 ## How to Run
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/WillPrell/impact.com_repo
