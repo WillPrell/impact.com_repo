@@ -12,6 +12,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <main.class>com.william.GenerateName</main.class>
     </properties>
 
     <dependencies>
@@ -44,7 +45,7 @@
                             <transformers>
                                 <!-- Ensure your main class is recognized -->
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.william.GenerateName</mainClass>
+                                    <mainClass>${main.class}</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
