@@ -13,7 +13,6 @@ This is a simple Java command-line application that prints the name of the compa
 - Picocli 4.7.5
 - JUnit 5.10.0 for testing
 - Maven for build and dependency management
-```
 
 ## Project Structure
 
