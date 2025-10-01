@@ -16,6 +16,7 @@ This is a simple Java command-line application that prints the name of the compa
 
 ## Project Structure
 
+```
 src/
 ├── main/
 │ └── java/com/william/
@@ -23,6 +24,7 @@ src/
 └── test/
 └── java/com/william/
 └── GenerateNameTest.java
+```
 
 ## How to Run
 
