@@ -18,11 +18,11 @@ This is a simple Java command-line application that prints the name of the compa
 
 src/
 ├── main/
-│   ├── java/com/william/
-│   │   ├── GenerateName.java
-├── test/
-│   ├── java/com/william/
-|   |   ├── GenerateNameTest.java
+│ └── java/com/william/
+│ └── GenerateName.java
+└── test/
+└── java/com/william/
+└── GenerateNameTest.java
 
 ## How to Run
 
