@@ -3,7 +3,7 @@ package com.william;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
-@Command(name="printCompanyName", version="1.0")
+@Command(name="printCompanyName", mixinStandardHelpOptions = true, version="1.0")
 public class GenerateName implements Runnable {
 
     public static void main(String[] args) {
